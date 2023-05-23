@@ -16,6 +16,9 @@
           - Reading 01
       - date:           Wed 06/07
         topics:         Arrays, Lists, Stacks, Queues
+        items:
+          - name:       Slides 01
+            link:       https://docs.google.com/presentation/d/1sMBZpozB0-DzC9hsgjvZqosAjj4ExDuwdpDMs-6ARAs/edit?usp=sharing
 
       - date:           Sat 06/10
         assignments:
