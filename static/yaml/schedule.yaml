@@ -130,6 +130,10 @@
   days:
       - date:           Mon 07/24
         topics:         ''
+        items:
+          - name:       Contest
 
       - date:           Wed 07/26
         topics:         ''
+        items:
+          - name:       Contest
