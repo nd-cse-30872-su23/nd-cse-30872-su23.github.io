@@ -21,8 +21,8 @@
       - date:           Wed 06/07
         topics:         Arrays, Lists, Stacks, Queues
         items:
-          - name:       Slides 01
-            link:       https://docs.google.com/presentation/d/1sMBZpozB0-DzC9hsgjvZqosAjj4ExDuwdpDMs-6ARAs/edit?usp=sharing
+          - name:       Slides 02
+            link:       https://docs.google.com/presentation/d/1zEMj53FpMcHwZrMrS3b4hZiJFJ1Q7ALno8yd32VFyDw/edit?usp=sharing
 
       - date:           Sat 06/10
         assignments:
@@ -96,12 +96,12 @@
 
 - name:     Graphs I
   days:
-      - date:           Mon 07/12
+      - date:           Mon 07/10
         topics:         Representation, Traversal
         assignments:
           - Reading 06
 
-      - date:           Wed 07/14
+      - date:           Wed 07/12
         topics:         Shortest Paths, Spanning Trees
 
       - date:           Sat 07/15
@@ -112,12 +112,12 @@
 
 - name:     Graphs II
   days:
-      - date:           Mon 07/19
+      - date:           Mon 07/17
         topics:         Topological Sorting
         assignments:
           - Reading 07
 
-      - date:           Wed 07/21
+      - date:           Wed 07/19
         topics:         Paths, Flows and Cuts
 
       - date:           Sat 07/22
@@ -130,6 +130,10 @@
   days:
       - date:           Mon 07/24
         topics:         ''
+        items:
+          - name:       Contest
 
       - date:           Wed 07/26
         topics:         ''
+        items:
+          - name:       Contest
