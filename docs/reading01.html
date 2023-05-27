@@ -116,6 +116,26 @@ loadQuiz('static/json/reading01.json');
 
 <pre style="display: none;" id="dr-container" class="codehilite"><code id="dredd-response"></code></pre>
 
+<div class="alert alert-success">
+<h4 id="python-3"><i class="fa fa-code"></i> Python 3<a class="headerlink" href="#python-3" title="Permanent link">&para;</a></h4>
+<p>Throughout the semester, we will be using <a href="https://www.python.org/">Python</a> 3 for a variety of
+purposes. Because the student machines have an older version of <a href="https://www.python.org/">Python</a> 3
+by default, you will need to add the following line to your <code>~/.bashrc</code> file:</p>
+<div class="codehilite" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><code><span style="color: #008000">export</span> <span style="color: #19177C">PATH</span><span style="color: #666666">=</span>/escnfs/home/pbui/pub/pkgsrc/bin:<span style="color: #19177C">$PATH</span>
+</code></pre></div>
+
+<p>You can then <code>source</code> this file to load that environment variable:</p>
+<div class="codehilite" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><code>$ <span style="color: #008000">source</span> ~/.bashrc
+</code></pre></div>
+
+<p>To check that <a href="https://www.python.org/">Python</a> 3 works, you can run the following:</p>
+<div class="codehilite" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><code>$ python3 -V
+Python <span style="color: #666666">3</span>.11.2
+</code></pre></div>
+
+</div>
+<p>This will be necessary for the <code>.scripts/check.py</code> script in your
+<strong>assignments</strong> repository.</p>
 <p>To submit your answers, you will need create a <code>answers.json</code> or
 <code>answers.yaml</code> file in the <code>reading01</code> folder of your <strong>assignments</strong>
 repository:</p>
