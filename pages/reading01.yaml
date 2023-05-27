@@ -70,7 +70,33 @@ body:       |
     loadQuiz('static/json/reading01.json');
     </script>
 
-    <pre style="display: none;" id="dr-container" class="codehilite"><code id="dredd-response"></code></pre> 
+    <pre style="display: none;" id="dr-container" class="codehilite"><code id="dredd-response"></code></pre>
+
+    <div class="alert alert-success" markdown="1">
+    #### <i class="fa fa-code"></i> Python 3
+
+    Throughout the semester, we will be using [Python] 3 for a variety of
+    purposes. Because the student machines have an older version of [Python] 3
+    by default, you will need to add the following line to your `~/.bashrc` file:
+
+        :::bash
+        export PATH=/escnfs/home/pbui/pub/pkgsrc/bin:$PATH
+
+    You can then `source` this file to load that environment variable:
+
+        :::bash
+        $ source ~/.bashrc
+
+    To check that [Python] 3 works, you can run the following:
+
+        :::bash
+        $ python3 -V
+        Python 3.11.2
+
+    </div>
+
+    This will be necessary for the `.scripts/check.py` script in your
+    **assignments** repository.
 
     To submit your answers, you will need create a `answers.json` or
     `answers.yaml` file in the `reading01` folder of your **assignments**
