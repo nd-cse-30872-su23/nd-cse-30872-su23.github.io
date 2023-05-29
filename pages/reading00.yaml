@@ -1,6 +1,9 @@
 title:      "Reading 00: Orientation"
 icon:       fa-book
-navigation: []
+navigation:
+  - name: "Home"
+    link: "index.html"
+    icon: "fa-gavel"
 internal:
 external:
 body:       |
@@ -146,7 +149,7 @@ body:       |
     do remote work in an environment crafted for the course.  The following
     steps allow you to **clone** the **assigments** you just created to any
     machine of your choosing.
-    
+
     <div class="alert alert-warning" markdown="1">
     #### <i class="fa fa-server"></i> Student Machines
 

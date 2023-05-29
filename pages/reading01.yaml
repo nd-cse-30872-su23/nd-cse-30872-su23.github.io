@@ -1,6 +1,9 @@
 title:      "Reading 01: I/O, Sequence Containers"
 icon:       fa-book
-navigation: []
+navigation:
+  - name: "Home"
+    link: "index.html"
+    icon: "fa-gavel"
 internal:
 external:
 body:       |
