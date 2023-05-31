@@ -8,11 +8,11 @@ internal:
 external:
 body:       |
 
-    <img src="static/img/challenge05-snie.jpg" class="pull-right" style="padding-left: 5px;">
+    <img src="static/img/challenge05-snie.jpg" class="pull-right img-responsive" style="padding-left: 10px;">
 
     As usual, [Selina] is having **tummy troubles**.  Maybe she ate *dairy*
     despite having an intolerance[^1].  Or maybe she ran around the lake despite
-    having knee issues[^2].  Or maybe she is stressed out because the instructor
+    not eating[^2].  Or maybe she is stressed out because the instructor
     hasn't written that sixteenth letter of recommendation yet[^3].  Either way,
     her stomach is not happy and she needs to find some **medicine** to calm it
     down.
@@ -49,7 +49,7 @@ body:       |
     [Indy]: https://www.instagram.com/the_diary_of_indy/
 
     [^1]: Me too :|
-    [^2]: TIL sports tape.
+    [^2]: Negative feedback loop.
     [^3]: Never again.
     [^4]: Just Kidding.  Maybe.  Not really.
 
@@ -245,7 +245,7 @@ body:       |
         $ .scripts/check.py
         Checking challenge05 program.cpp ...
           Result Success
-            Time 0.16
+            Time 0.62
            Score 6.00 / 6.00
 
         $ curl -F source=@challenge05/program.cpp https://dredd.h4x0r.space/code/cse-30872-su23/challenge05
