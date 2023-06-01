@@ -8,6 +8,8 @@ internal:
 external:
 body:       |
 
+    <img src="static/img/cphb.png" class="img-responsive pull-right" style="padding-left: 10px;">
+
     **Everyone**:
 
     Next week, we will work on problems related to [searching], [sorting], and
