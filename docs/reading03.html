@@ -7,7 +7,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Reading 02: Searching, Sorting, and Associative Containers</title>
+	<title>Reading 03: Complete Search, Bit Manipulation, Greedy Algorithms</title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="static/css/blugold.css" rel="stylesheet">
@@ -35,57 +35,52 @@
 			<li><a href="index.html"><i class="fa fa-gavel"></i> <span class="visible-md-inline visible-lg-inline">Home</span></a></li>
 			
 		    </ul>
-		    <h1><i class="fa fa-book"></i> Reading 02: Searching, Sorting, and Associative Containers</h1>
+		    <h1><i class="fa fa-book"></i> Reading 03: Complete Search, Bit Manipulation, Greedy Algorithms</h1>
 		</div>
 	    </div>
 
             
 <p><img src="static/img/cphb.png" class="img-responsive pull-right" style="padding-left: 10px;"></p>
 <p><strong>Everyone</strong>:</p>
-<p>Next week, we will work on problems related to <a href="https://en.wikipedia.org/wiki/Search_algorithm">searching</a>, <a href="https://en.wikipedia.org/wiki/Sorting_algorithm">sorting</a>, and
-<a href="https://en.wikipedia.org/wiki/Associative_containers">associative containers</a> such as <a href="https://en.wikipedia.org/wiki/Set_(abstract_data_type)">sets</a>, <a href="https://en.wikipedia.org/wiki/Associative_array">maps</a>, and <a href="https://en.wikipedia.org/wiki/Hash_table">hash tables</a>.
-Knowing how to apply these techniques will come in handy for <a href="challenge04.html">Challenge
-04</a>, <a href="challenge05.html">Challenge 05</a>, and <a href="challenge06.html">Challenge 06</a>.</p>
+<p>Next week, we will work on problems related to the following problem
+solving techniques:</p>
+<ol>
+<li>
+<p><strong>Complete Search</strong>: This involves trying out every possibility and
+testing them.  Although <a href="https://en.wikipedia.org/wiki/Brute-force_search">brute-force</a> search may feel wrong, sometimes the
+most straightforward solution is the best one.  To perform a "complete
+search" we will need the ability to generate each combination and the
+ability to perform <a href="https://en.wikipedia.org/wiki/Backtracking">backtracking</a>.</p>
+</li>
+<li>
+<p><strong>Bit Manipulation</strong>:  This technique takes advantage of the bit
+representation of an integer to compactly store information using bitwise
+logical operations.</p>
+</li>
+<li>
+<p><strong>Greedy Algorithms</strong>: This is a problem solving approach where we
+attempt to find a global optimum by always making the locally optimal
+choice. That is, <a href="https://en.wikipedia.org/wiki/Greedy_algorithm">greedy algorithms</a> take advantage of certain problem
+features to avoid searching every possibility in order to find an optimal
+solution.</p>
+</li>
+</ol>
+<p>Both of these techniques will come in handy for solving <a href="challenge07.html">Challenge 07</a>,
+<a href="challenge08.html">Challenge 08</a>, and <a href="challenge08.html">Challenge 09</a>.</p>
 <h2 id="reading">Reading<a class="headerlink" href="#reading" title="Permanent link">&para;</a></h2>
 <p>The readings for this week are:</p>
 <ol>
 <li>
 <p><a href="https://cses.fi/book.html">Competitive Programmer's Handbook</a></p>
 <ul>
-<li>
-<p>Chapter 3 Sorting</p>
-</li>
-<li>
-<p><p>Chapter 4 Data Structures</p></p>
-<p><em>Focus on sections 4.2 Set structures and 4.3 Map structures.</em></p>
-</li>
-</ul>
-</li>
-</ol>
-<h3 id="optional">Optional<a class="headerlink" href="#optional" title="Permanent link">&para;</a></h3>
-<p>Here are some optional resources:</p>
-<ol>
-<li>
-<p><a href="https://isocpp.org/">C++</a> standard library:</p>
-<ul>
-<li><a href="https://en.cppreference.com/w/cpp/algorithm/sort">sort</a></li>
-<li><a href="http://en.cppreference.com/w/cpp/container/set">set</a></li>
-<li><a href="http://en.cppreference.com/w/cpp/container/map">map</a></li>
-<li><a href="http://en.cppreference.com/w/cpp/container/unordered_set">unordered_set</a></li>
-<li><p><a href="http://en.cppreference.com/w/cpp/container/unordered_map">unordered_map</a></p></li>
-</ul>
-</li>
-<li>
-<p><a href="https://www.python.org/">Python</a> standard library:</p>
-<ul>
-<li><a href="https://docs.python.org/3/howto/sorting.html">sorting</a></li>
-<li><a href="https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset">set</a></li>
-<li><a href="https://docs.python.org/3/library/stdtypes.html#typesmapping">dict</a></li>
+<li>Chapter 5 Complete Search</li>
+<li>Chapter 6 Greedy Algorithm</li>
+<li>Chapter 10 Bit manipulation</li>
 </ul>
 </li>
 </ol>
 <h2 id="quiz">Quiz<a class="headerlink" href="#quiz" title="Permanent link">&para;</a></h2>
-<p>Once you have done the readings, answer the following <a href="static/json/reading02.json">Reading 02 Quiz</a>
+<p>Once you have done the readings, answer the following <a href="static/json/reading03.json">Reading 03 Quiz</a>
 questions:</p>
 <div id="quiz-questions"></div>
 
@@ -93,7 +88,7 @@ questions:</p>
 
 <script src="static/js/dredd-quiz.js"></script>
 <script>
-loadQuiz('static/json/reading02.json');
+loadQuiz('static/json/reading03.json');
 </script>
 
 <pre style="display: none;" id="dr-container" class="codehilite"><code id="dredd-response"></code></pre>
@@ -101,35 +96,29 @@ loadQuiz('static/json/reading02.json');
 <h2 id="submission">Submission<a class="headerlink" href="#submission" title="Permanent link">&para;</a></h2>
 <p>To submit you work, follow the same process outlined in <a href="reading01.html">Reading 01</a>:</p>
 <div class="codehilite" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><code>$ git checkout master                 <span style="color: #3D7B7B; font-style: italic"># Make sure we are in master branch</span>
-
 $ git pull --rebase                   <span style="color: #3D7B7B; font-style: italic"># Make sure we are up-to-date with GitHub</span>
 
-$ git checkout -b reading02           <span style="color: #3D7B7B; font-style: italic"># Create reading02 branch and check it out</span>
+$ git checkout -b reading03           <span style="color: #3D7B7B; font-style: italic"># Create reading03 branch and check it out</span>
 
-$ <span style="color: #008000">cd</span> reading02                        <span style="color: #3D7B7B; font-style: italic"># Go into reading02 folder</span>
-
+$ <span style="color: #008000">cd</span> reading03                        <span style="color: #3D7B7B; font-style: italic"># Go into reading03 folder</span>
 $ <span style="color: #19177C">$EDITOR</span> answers.json                <span style="color: #3D7B7B; font-style: italic"># Edit your answers.json file</span>
 
-$ ../.scripts/check.py                <span style="color: #3D7B7B; font-style: italic"># Check reading02 quiz</span>
-Checking reading02 quiz ...
-     Q01 <span style="color: #666666">0</span>.40
-     Q02 <span style="color: #666666">0</span>.60
-     Q03 <span style="color: #666666">0</span>.20
-     Q04 <span style="color: #666666">0</span>.80
-     Q05 <span style="color: #666666">0</span>.25
-     Q06 <span style="color: #666666">0</span>.25
-     Q07 <span style="color: #666666">0</span>.25
-     Q08 <span style="color: #666666">0</span>.25
-     Q09 <span style="color: #666666">0</span>.50
-     Q10 <span style="color: #666666">0</span>.50
+$ ../.scripts/check.py                <span style="color: #3D7B7B; font-style: italic"># Check reading03 quiz</span>
+Checking reading03 quiz ...
+      Q1 <span style="color: #666666">0</span>.50
+      Q2 <span style="color: #666666">0</span>.50
+      Q3 <span style="color: #666666">0</span>.50
+      Q4 <span style="color: #666666">1</span>.00
+      Q5 <span style="color: #666666">0</span>.50
+      Q6 <span style="color: #666666">0</span>.50
+      Q7 <span style="color: #666666">0</span>.50
    Score <span style="color: #666666">4</span>.00 / <span style="color: #666666">4</span>.00
   Status Success
 
 $ git add answers.json                <span style="color: #3D7B7B; font-style: italic"># Add answers.json to staging area</span>
+$ git commit -m <span style="color: #BA2121">&quot;Reading 03: Done&quot;</span>    <span style="color: #3D7B7B; font-style: italic"># Commit work</span>
 
-$ git commit -m <span style="color: #BA2121">&quot;Reading 02: Done&quot;</span>    <span style="color: #3D7B7B; font-style: italic"># Commit work</span>
-
-$ git push -u origin reading02        <span style="color: #3D7B7B; font-style: italic"># Push branch to GitHub</span>
+$ git push -u origin reading03        <span style="color: #3D7B7B; font-style: italic"># Push branch to GitHub</span>
 </code></pre></div>
 
 <div class="alert alert-success">
