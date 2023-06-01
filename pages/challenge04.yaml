@@ -102,7 +102,7 @@ body:       |
 
     ## Submission
 
-    To submit your work, follow the same procedure you used for [Reading 00]:
+    To submit your work, follow the same procedure you used for [Reading 01]:
 
         :::bash
         $ cd path/to/cse-30872-su23-assignments     # Go to assignments repository
@@ -142,7 +142,7 @@ body:       |
     [GitHub]:           https://github.com
     [HackerRank]:       https://www.hackerrank.com
     [LeetCode]:         https://leetcode.com
-    [Reading 00]:       reading00.html
+    [Reading 01]:       reading01.html
     [curl]:             https://curl.haxx.se/
 
     [Systems Programming]:  https://www3.nd.edu/~pbui/teaching/cse.20289.sp23
