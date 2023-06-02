@@ -11,14 +11,15 @@ body:       |
     <img src="static/img/challenge05-snie.jpg" class="pull-right img-responsive" style="padding-left: 10px;">
 
     As usual, [Selina] is having **tummy troubles**.  Maybe she ate *dairy*
-    despite having an intolerance[^1].  Or maybe she ran around the lake despite
-    not eating[^2].  Or maybe she is stressed out because the instructor
-    hasn't written that sixteenth letter of recommendation yet[^3].  Either way,
-    her stomach is not happy and she needs to find some **medicine** to calm it
+    despite having an intolerance[^1].  Or maybe she ran around the lake
+    despite not having eaten[^2].  Or maybe she is stressed out because the
+    instructor hasn't written that sixteenth letter of recommendation yet[^3].
+    Or maybe she simply just ate at the dining hall[^4].  Either way, her
+    stomach is not happy and she needs to find some **medicine** to calm it
     down.
 
     Unfortunately, [Selina] takes a lot of medication.  Like, a lot.  Perhaps
-    too many.  In fact, her backpack is a portable pharmacy[^4]... a mini [St.
+    too many.  In fact, her backpack is a portable pharmacy[^5]... a mini [St.
     Liam's].  Because she has so many medicine **bottles**, she decides to
     organize them according to the following rules.
 
@@ -51,7 +52,8 @@ body:       |
     [^1]: Me too :|
     [^2]: Negative feedback loop.
     [^3]: Never again.
-    [^4]: Just Kidding.  Maybe.  Not really.
+    [^4]: True story.
+    [^5]: Just Kidding.  Maybe.  Not really.
 
     ## Input
 
