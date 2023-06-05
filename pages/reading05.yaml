@@ -1,6 +1,9 @@
 title:      "Reading 05: Trees"
 icon:       fa-book
-navigation: []
+navigation:
+- name: "Home"
+  link: "index.html"
+  icon: "fa-gavel"
 internal:
 external:
 body:       |

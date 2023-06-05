@@ -1,6 +1,9 @@
 title:      "Reading 06: Graphs (Traversals, Shortest Paths, MSTs)"
 icon:       fa-book
-navigation: []
+navigation:
+- name: "Home"
+  link: "index.html"
+  icon: "fa-gavel"
 internal:
 external:
 body:       |
