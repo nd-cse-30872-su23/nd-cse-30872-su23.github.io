@@ -38,9 +38,15 @@
         topics:         Searching, Sorting
         assignments:
           - Reading 02
+        items:
+          - name:       Slides 03
+            link:       https://docs.google.com/presentation/d/1GYJO3x9LIirYBuq2bC0emkzsx3GMdWjIMCtNDwLqDkU/edit?usp=sharing
 
       - date:           Wed 06/14
         topics:         Sets, Maps
+        items:
+          - name:       Slides 04
+            link:       https://docs.google.com/presentation/d/1C1L_1DYgEFC_2W81ZC9nqzmmvsD3fHlH0WQCQXDFwOs/edit?usp=sharing
 
       - date:           Sat 06/17
         assignments:
