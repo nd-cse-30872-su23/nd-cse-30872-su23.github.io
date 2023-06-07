@@ -19,7 +19,7 @@ body:       |
 
     > For any given `n`, you can apply one of the two following operations:
     >
-    > 1. If `n` is even, replace `n` with `n / `.
+    > 1. If `n` is even, replace `n` with `n / 2`.
     > 2. If `n` is odd, replace `n` with either `n + 1` or `n - 1`.
     >
     > Define a function `f(n)` such that it returns the **minimum number of
