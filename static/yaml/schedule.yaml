@@ -68,6 +68,9 @@
 
       - date:           Wed 06/21
         topics:         Bit Manipulation, Greedy Algorithms
+        items:
+          - name:       Slides 06
+            link:       https://docs.google.com/presentation/d/1gEhH3C-X8htpOrRjRatyUEqJqs5S-EgilOvvn6YLcRY/edit?usp=sharing
 
       - date:           Sat 06/24
         assignments:
