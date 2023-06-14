@@ -43,6 +43,8 @@
         items:
           - name:       Slides 03
             link:       https://docs.google.com/presentation/d/1GYJO3x9LIirYBuq2bC0emkzsx3GMdWjIMCtNDwLqDkU/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=be9d23f9-3844-4a42-965f-b0200018aac9
 
       - date:           Wed 06/14
         topics:         Sets, Maps
@@ -62,9 +64,17 @@
         topics:         Subsets, Permutations, Backtracking
         assignments:
           - Reading 03
+        items:
+          - name:       Slides 05
+            link:       https://docs.google.com/presentation/d/1vyyiX5C6_H3Rtf-Y9qocmPLy_AGc6y0ut8CqpxqI5jY/edit?usp=sharing
 
       - date:           Wed 06/21
         topics:         Bit Manipulation, Greedy Algorithms
+        items:
+          - name:       Slides 06
+            link:       https://docs.google.com/presentation/d/1gEhH3C-X8htpOrRjRatyUEqJqs5S-EgilOvvn6YLcRY/edit?usp=sharing
+          - name:       Slides 07
+            link:       https://docs.google.com/presentation/d/1Wt0-edCD7BBhmgjlyovUiUtcMdot7gPdCCh5jfMl6-8/edit?usp=sharing
 
       - date:           Sat 06/24
         assignments:
