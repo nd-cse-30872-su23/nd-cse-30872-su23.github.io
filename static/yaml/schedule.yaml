@@ -90,9 +90,15 @@
         topics:         Memoization
         assignments:
           - Reading 04
+        items:
+          - name:       Slides 08
+            link:       https://docs.google.com/presentation/d/1J63il-BcRFLiB2IdkImysIM7AAK4mNO0GTCCOvsTKTA/edit?usp=sharing
 
       - date:           Wed 06/28
         topics:         Table Building
+        items:
+          - name:       Slides 08
+            link:       https://docs.google.com/presentation/d/1J63il-BcRFLiB2IdkImysIM7AAK4mNO0GTCCOvsTKTA/edit?usp=sharing
 
       - date:           Sat 07/01
         assignments:
