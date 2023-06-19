@@ -156,9 +156,15 @@
         topics:         Topological Sorting
         assignments:
           - Reading 07
+        items:
+          - name:       Slides 11
+            link:       https://docs.google.com/presentation/d/1pi_MgHYbjRc_Ghov8JW-RDVsnkyJqj--mx-jujmpqyY/edit?usp=sharing
 
       - date:           Wed 07/19
-        topics:         Paths, Flows and Cuts
+        topics:         Paths, Flows
+        items:
+          - name:       Slides 11
+            link:       https://docs.google.com/presentation/d/1pi_MgHYbjRc_Ghov8JW-RDVsnkyJqj--mx-jujmpqyY/edit?usp=sharing
 
       - date:           Sat 07/22
         assignments:
