@@ -123,6 +123,8 @@
         items:
           - name:       Slides 09
             link:       https://docs.google.com/presentation/d/13VFaRTNBrp6BtnjGu7z6i713ZHpRkPEkirZKby-dCUU/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0077af94-356a-460e-8d26-b03500182cf5
 
       - date:           Wed 07/05
         topics:         Divide and Conquer
