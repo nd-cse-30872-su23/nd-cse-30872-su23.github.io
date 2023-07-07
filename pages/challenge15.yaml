@@ -82,7 +82,7 @@ body:       |
         Level 3 has the most nodes: 3
 
     Note, if there are multiple levels with the maximum number of nodes, then
-    choose the level with the highest value (ie. further down the tree).
+    choose the level with the lowest value (ie. nearer to the root).
 
     <div class="alert alert-danger" markdown="1">
     #### <i class="fa fa-balance-scale"></i> Algorithmic Complexity
